@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from transformer_base import BaseTransformer, add_generic_args, generic_train
 from utils_s_t import convert_examples_to_features, get_labels, read_examples_from_file, read_golds_from_test_file, not_sub_string
 
-role_list = ["birth", "death", "nationality", "painter_name"]
+role_list = ["1_painter_name", "2_birth", "3_death", "4_nationality"]
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -5,7 +5,7 @@ import json
 import argparse
 from scipy.optimize import linear_sum_assignment # https://docs.scipy.org/doc/scipy-0.18.1/reference/generated/scipy.optimize.linear_sum_assignment.html
 from collections import OrderedDict
-tag2role = OrderedDict({'perp_individual_id': "birth", 'perp_organization_id': "death", 'phys_tgt_id': "nationality", 'hum_tgt_name': "painter_name"})
+tag2role = OrderedDict({'perp_individual_id': "1_painter_name", 'perp_organization_id': "2_birth", 'phys_tgt_id': "3_death", 'hum_tgt_name': "4_nationality"})
 
 
 
