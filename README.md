@@ -11,7 +11,7 @@ you will add --do train
 
 You may have to reduce --train_batch_size 32 depending on your VRAM  
 
-For simple use unzip the file and add the complementary files then run every cell one by one of GRIT.ipynb until S.main() is executed you will be able to run the chatbet and play with him 
+For simple use unzip the file and add the complementary files then run every cell one by one of GRIT.ipynb until S.main() is executed you will be able to run the chatbot and play with him 
 
 
 ## Info
