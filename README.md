@@ -12,3 +12,8 @@ you will add --do train
 You may have to reduce --train_batch_size 32 depending on your VRAM  
 
 For simple use unzip the file and add the complementary files then run every cell one by one of GRIT.ipynb until S.main() is executed you will be able to run the chatbet and play with him 
+
+
+## Info
+
+The grit model is a modified version adapted to our data from https://github.com/xinyadu/grit_doc_event_entity, most of the model's credit is due to its original authors
